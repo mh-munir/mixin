@@ -13,7 +13,7 @@ const TraitShopHome = () => {
       <Header />
       <TraitHeader />
       <section className='w-[94%] h-full bg-gray-light ml-auto py-[70px] mb-24'>
-            <div className='w-[80%] ml-auto'>
+            <div className='w-[80%] ml-auto px-5'>
                 <div className='mb-5'>
                     <CustomBtn className={"bg-gray-deep text-yellow flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
                 </div>
