@@ -4,9 +4,9 @@ import CwBtn from './CwBtn';
 
 const Header = () => {
   return (
-    <header className='pt-5'>
-        <div className='w-[98%] ml-auto flex items-end justify-between'>
-            <img className='w-24 h-auto' src={Logo} alt="Logo"/>
+    <header className='pt-10 mb-1'>
+        <div className='w-full ml-auto flex items-end justify-between pl-5'>
+            <img className='w-24 h-auto relative -mb-5' src={Logo} alt="Logo"/>
             <CwBtn />
         </div>
     </header>

@@ -1,7 +1,7 @@
 import React from 'react'
 import CustomBtn from '../components/CustomBtn'
 import Header from '../components/Header'
-import Sidbar from '../components/Sidbar'
+import TraitHeader from '../components/TraitHeader'
 import {MdArrowRight} from 'react-icons/md';
 import TraitThumbnail from '../components/TraitThumbnail';
 import thumbnailImg from '../assets/img/thumbnail.png';
@@ -11,11 +11,11 @@ const TraitShopHome = () => {
   return (
     <>
       <Header />
-      <Sidbar />
-      <section className='w-[95%] h-full bg-gray-light ml-auto py-16 mb-24'>
+      <TraitHeader />
+      <section className='w-[94%] h-full bg-gray-light ml-auto py-[70px] mb-24'>
             <div className='w-[80%] ml-auto'>
                 <div className='mb-5'>
-                    <CustomBtn className={"bg-gray-deep text-yellow flex items-start text-xl font-bold rounded-md px-4 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add more"} />
+                    <CustomBtn className={"bg-gray-deep text-yellow flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
                 </div>
                 <div className='max-w-4xl mr-auto mb-5 relative'>
                     <div className='flex items-center justify-between mb-2'>
