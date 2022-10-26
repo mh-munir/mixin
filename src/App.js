@@ -3,6 +3,7 @@ import { LandingPage } from './pages/LandingPage';
 import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
 import WelcomePage from './pages/WelcomePage';
 import TraitShopHome from './pages/TraitShopHome';
+import AddTrait from './pages/AddTrait';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
              <Route index path='/' element={<LandingPage/>} />
              <Route path='/welcome' element={<WelcomePage/>} />
              <Route path='/traitshop' element={<TraitShopHome/>} />
+             <Route path='/addtrait' element={<AddTrait/>} />
           </Routes>
         </Layout>
       </Router>

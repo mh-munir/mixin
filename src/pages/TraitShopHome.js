@@ -11,13 +11,13 @@ const TraitShopHome = () => {
   return (
     <>
       <Header />
-      <TraitHeader />
-      <section className='w-[94%] h-full bg-gray-light ml-auto py-[70px] mb-24'>
+      <section className='w-[94%] relative h-full bg-gray-light ml-auto py-16 mb-16'>
+            <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <div className='mb-5'>
-                    <CustomBtn className={"bg-gray-deep text-yellow flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
+                    <CustomBtn className={"bg-gray-deep text-yellow font-semibold flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
                 </div>
-                <div className='max-w-4xl mr-auto mb-5 relative'>
+                <div className='max-w-3xl mr-auto mb-5 relative'>
                     <div className='flex items-center justify-between mb-2'>
                         <h2 className='text-gray-deep text-2xl font-bold'>Pending Traits</h2>
                         <Link className='text-gray-deep text-2xl font-normal italic' to="">See All</Link>
@@ -36,7 +36,7 @@ const TraitShopHome = () => {
                     </div>
 
                 </div>
-                <div className='max-w-4xl mr-auto relative'>
+                <div className='max-w-3xl mr-auto relative'>
                     <div className='flex items-center justify-between mb-2'>
                         <h2 className='text-gray-deep text-2xl font-bold'>created Traits</h2>
                         <Link className='text-gray-deep text-2xl font-normal italic' to="">See All</Link>
