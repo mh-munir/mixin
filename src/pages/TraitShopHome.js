@@ -12,7 +12,7 @@ const TraitShopHome = () => {
     <>
       <Header />
       <Sidbar />
-      <section className='w-[95%] h-full bg-gray-light ml-auto py-16'>
+      <section className='w-[95%] h-full bg-gray-light ml-auto py-16 mb-24'>
             <div className='w-[80%] ml-auto'>
                 <div className='mb-5'>
                     <CustomBtn className={"bg-gray-deep text-yellow flex items-start text-xl font-bold rounded-md px-4 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add more"} />
@@ -23,13 +23,13 @@ const TraitShopHome = () => {
                         <Link className='text-gray-deep text-2xl font-normal italic' to="">See All</Link>
                     </div>
                     <div className='grid grid-cols-4 gap-5'>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"} />
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"} />
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"} />
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"} />
                     </div>
 
-                    <div className='absolute top-1/2 -right-32 -translate-y-1/2 flex gap-3'>
+                    <div className='absolute top-1/2 -right-24 -translate-y-1/2 flex gap-3'>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
@@ -42,12 +42,12 @@ const TraitShopHome = () => {
                         <Link className='text-gray-deep text-2xl font-normal italic' to="">See All</Link>
                     </div>
                     <div className='grid grid-cols-4 gap-5'>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
-                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" linkText={'View Details'}/>
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"}/>
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"}/>
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"}/>
+                        <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"}/>
                     </div>
-                    <div className='absolute top-1/2 -right-32 -translate-y-1/2 flex gap-3'>
+                    <div className='absolute top-1/2 -right-24 -translate-y-1/2 flex gap-3'>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
                         <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
