@@ -11,15 +11,18 @@ module.exports = {
     },
     colors: {
       "white": "#fff",
-      "dark": "#000",
+      "black": "#000",
       "gray-deep": "#4F4A4C",
+      "gray-400": "#8C8289",
       "gray-light": "#EAE9E8",
-      "yellow": "#EAB861",
+      "yellow-light": "#EAB861",
       "yellow-deep": "#D5874A",
-      "red": "#C35A44",
-      "rose": "#D6A196",
+      "red-light": "#C35A44",
+      "red-deep": "#D6513C",
+      "rose-light": "#D6A196",
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [
+  ],
 }

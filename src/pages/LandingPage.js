@@ -14,8 +14,7 @@ export const LandingPage = () => {
               </div>
               <div className='text-center max-w-md mx-auto'>
                   <Link className=' bg-gray-deep px-5 py-1 text-lg text-white uppercase'to="/welcome"> Please 
-                    <span className='text-yellow'> Connect your Wallet</span> 
-                    to Get Started 
+                    <span className='text-yellow-light'> Connect your Wallet</span> to Get Started 
                   </Link>
 
                   <p className='mt-5 text-lg text-gray-deep'>

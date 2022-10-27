@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AddtraitField = ({onChange, type, className, heading,description}) => {
+const AddtraitField = ({traitTitle, traitDes, accept, type, value, className, onChange}) => {
   return (
-    <div>
-        <h2 className='text-xl font-bold text-gray-deep'>{heading}</h2>
-        <p className='text-xl font-bold text-gray-deep'>{description}</p>
-        <input onChange={onChange} type={type} className={className}/>
+    <div>       
+      <h3 className='font-gilroy-bold text-2xl text-gray-deep mb-1'>{traitTitle}</h3>
+      <p className='text-xl text-gray-400 font-medium mb-1'>{traitDes}</p>
+      <input onChange={onChange} accept={accept} type={type} value={value} className={className} />
     </div>
   )
 }

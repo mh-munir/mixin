@@ -15,7 +15,7 @@ const TraitShopHome = () => {
             <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <div className='mb-5'>
-                    <CustomBtn className={"bg-gray-deep text-yellow font-semibold flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
+                    <CustomBtn className={"bg-gray-deep text-yellow-light font-semibold flex items-start text-xl rounded-sm px-5 py-1"} awrrowSign={<MdArrowRight className='text-2xl leading-none'/>} btnText={"Add new"} />
                 </div>
                 <div className='max-w-3xl mr-auto mb-5 relative'>
                     <div className='flex items-center justify-between mb-2'>
@@ -30,9 +30,9 @@ const TraitShopHome = () => {
                     </div>
 
                     <div className='absolute top-1/2 -right-24 -translate-y-1/2 flex gap-3'>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
                     </div>
 
                 </div>
@@ -48,9 +48,9 @@ const TraitShopHome = () => {
                         <TraitThumbnail src={thumbnailImg} alt="Trait Thumbnail" to={"/"}/>
                     </div>
                     <div className='absolute top-1/2 -right-24 -translate-y-1/2 flex gap-3'>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
-                        <span className='bg-red inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
+                        <span className='bg-red-light inline-block w-3 h-3 rounded-full'></span>
                     </div>
                 </div>
             </div>
