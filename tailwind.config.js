@@ -12,8 +12,10 @@ module.exports = {
     colors: {
       "white": "#fff",
       "black": "#000",
-      "gray-deep": "#4F4A4C",
+      "gray-200": "#D2CFCF",
+      "gray-300": "#B1ACB1",
       "gray-400": "#8C8289",
+      "gray-deep": "#4F4A4C",
       "gray-light": "#EAE9E8",
       "yellow-light": "#EAB861",
       "yellow-deep": "#D5874A",
@@ -24,5 +26,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('tailwind-scrollbar'),
   ],
 }
