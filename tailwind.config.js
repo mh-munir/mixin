@@ -23,7 +23,11 @@ module.exports = {
       "red-deep": "#D6513C",
       "rose-light": "#D6A196",
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        '1-3': '.4fr .6fr',
+      }
+    },
   },
   plugins: [
     require('tailwind-scrollbar'),
