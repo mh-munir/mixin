@@ -18,7 +18,7 @@ const AddTrait = () => {
             <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <from onSubmit={handleSubmit}>
-                    <div className='max-w-xl ml-40 mr-auto mb-5 relative grid gap-10'>
+                    <div className='max-w-xl ml-40 mr-auto mb-5 relative grid gap-7'>
                         <div className='flex justify-between items-start'>
                             <div className='text-center'>
                                 <AddtraitField accept={"image"} className={"text-gray-deep font-bold"} type={"file"} traitTitle={"Upload image"} 
@@ -84,7 +84,7 @@ const AddTrait = () => {
                                 <CustomBtn type={"reset"} btnText={"remove atribute"} className={"bg-gray-400 text-white px-5 py-1 text-lg font-bold rounded-md"}/>
                             </div>
                         </div>
-                        <div className='grid grid-cols-2 gap-5'>
+                        <div className='grid grid-cols-2 gap-2'>
                             <div className='text-center'>
                                 <AddtraitField 
                                 className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-[2px] focus:outline-0"}
