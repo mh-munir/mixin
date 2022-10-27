@@ -18,7 +18,7 @@ const AddTrait = () => {
             <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <from onSubmit={handleSubmit}>
-                    <div className='max-w-xl ml-40 mr-auto mb-5 relative grid gap-7'>
+                    <div className='max-w-xl ml-36 mr-auto mb-5 relative grid gap-7'>
                         <div className='flex justify-between items-start'>
                             <div className='text-center'>
                                 <AddtraitField accept={"image"} className={"text-gray-deep font-bold"} type={"file"} traitTitle={"Upload image"} 

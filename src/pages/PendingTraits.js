@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import TraitHeader from '../components/TraitHeader';
 import BackLink from '../components/BackLink';
 import PendingTraitScroll from '../components/PendingTraitScroll';
+import CreatedTraits from '../components/CreatedTraits';
 import PendingTraitImg from '../assets/img/thumbnail.png';
 
 const PendingTraits = () => {
@@ -14,6 +15,7 @@ const PendingTraits = () => {
           <TraitHeader />
           <div className='w-[80%] ml-auto px-5'>
               <div className='max-w-4xl mr-auto relative'>
+                <CreatedTraits className={"mb-5 max-w-2xl"}/>
                   <div className='grid grid-cols-3 gap-7'>
                     <PendingTraitScroll 
                         src={PendingTraitImg} 
