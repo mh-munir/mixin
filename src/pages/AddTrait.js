@@ -18,65 +18,65 @@ const AddTrait = () => {
             <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <from onSubmit={handleSubmit}>
-                    <div className='max-w-2xl ml-32 mr-auto mb-5 relative grid gap-10'>
+                    <div className='max-w-xl ml-40 mr-auto mb-5 relative grid gap-10'>
                         <div className='flex justify-between items-start'>
                             <div className='text-center'>
-                                <AddtraitField accept={"image"} className={"text-gray-400 font-bold"} type={"file"} traitTitle={"Upload image"} 
+                                <AddtraitField accept={"image"} className={"text-gray-deep font-bold"} type={"file"} traitTitle={"Upload image"} 
                                 traitDes={"must be png or gif"} />
                             </div>
                             <div className='text-center'>
-                                <AddtraitField accept={"video"} className={"text-gray-400 font-bold"} type={"file"} traitTitle={"Upload video"} 
+                                <AddtraitField accept={"video"} className={"text-gray-deep font-bold"} type={"file"} traitTitle={"Upload video"} 
                                 traitDes={"must be an mp4"} />
                             </div>
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Name of trait"} 
                             traitDes={"( Without numbers - those will added automaticly )"} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Symbol"} 
                             traitDes={"only regular characters are allowed"} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"External link"} 
                             traitDes={"this appears when viewing the NFT in your wallet"} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Supply"} 
                             traitDes={"this cannot be edited later"} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Sales price"} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Purchase coin"}
                             traitDes={"please input the hash of the coin that can be used this trait (please input the hash of the coin that can be used this trait) "} />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Royalty Fee"}
                             traitDes={"add two Os to the percentage you want: ex. 10% -> input '1000' "} />
                         </div>
                         <div className='text-center flex flex-col justify-center items-center'>
-                            <label className='font-gilroy-bold text-2xl text-gray-deep mb-1'> Description</label>
-                            <textarea className='w-[60%] text-gray-deep font-normal bg-gray-light h-56 border-2 border-gray-400 p-1 focus:outline-0' />
+                            <label className='font-gilroy-bold text-xl text-gray-deep mb-1'> Description</label>
+                            <textarea className='w-[50%] text-gray-deep font-bold bg-gray-light h-56 border-2 border-gray-400 p-[2px] focus:outline-0' />
                         </div>
                         <div className='text-center'>
                             <AddtraitField 
-                            className={"text-gray-deep font-normal bg-gray-light w-[60%] border-2 border-gray-400 p-1 focus:outline-0"}
+                            className={"text-gray-deep font-bold bg-gray-light w-[50%] border-2 border-gray-400 p-[2px] focus:outline-0"}
                             type={"text"} traitTitle={"Trait category"}
                             traitDes={"this is the category the trait will appear under in the trait shop front end (example: Clothing)"} />
                             <div className='mt-10 flex justify-center gap-3'>
@@ -87,22 +87,22 @@ const AddTrait = () => {
                         <div className='grid grid-cols-2 gap-5'>
                             <div className='text-center'>
                                 <AddtraitField 
-                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-1 focus:outline-0"}
+                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-[2px] focus:outline-0"}
                                 type={"text"} traitTitle={"Atribute name"} />
                             </div>
                             <div className='text-center'>
                                 <AddtraitField 
-                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-1 focus:outline-0"}
+                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-[2px] focus:outline-0"}
                                 type={"text"} traitTitle={"Atribute value"} />
                             </div>
                             <div className='text-center'>
                                 <AddtraitField 
-                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-1 focus:outline-0"}
+                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-[2px] focus:outline-0"}
                                 type={"text"} traitTitle={"Atribute name"} />
                             </div>
                             <div className='text-center'>
                                 <AddtraitField 
-                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-1 focus:outline-0"}
+                                className={"text-gray-deep font-normal bg-gray-light w-full border-2 border-gray-400 p-[2px] focus:outline-0"}
                                 type={"text"} traitTitle={"Atribute value"} />
                             </div>
                         </div>
