@@ -26,8 +26,66 @@ const PendingTraits = () => {
                         traitSupplyStats={"15"}
                         traitAmount={"Trait Amount:"}
                         traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
+
+                    <PendingTraitScroll 
+                        src={PendingTraitImg} 
+                        alt="Pending Trait Scroll"
+                        traitNmaeTitle={"Trait Name:"}
+                        traitNmae={"SAC Button Down"}
+                        traitSupply={"TraitSupply:"}
+                        traitSupplyStats={"15"}
+                        traitAmount={"Trait Amount:"}
+                        traitAmountStats={"0"}
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
+
+                    <PendingTraitScroll 
+                        src={PendingTraitImg} 
+                        alt="Pending Trait Scroll"
+                        traitNmaeTitle={"Trait Name:"}
+                        traitNmae={"SAC Button Down"}
+                        traitSupply={"TraitSupply:"}
+                        traitSupplyStats={"15"}
+                        traitAmount={"Trait Amount:"}
+                        traitAmountStats={"0"}
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
+
+                    <PendingTraitScroll 
+                        src={PendingTraitImg} 
+                        alt="Pending Trait Scroll"
+                        traitNmaeTitle={"Trait Name:"}
+                        traitNmae={"SAC Button Down"}
+                        traitSupply={"TraitSupply:"}
+                        traitSupplyStats={"15"}
+                        traitAmount={"Trait Amount:"}
+                        traitAmountStats={"0"}
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
+
+                    <PendingTraitScroll 
+                        src={PendingTraitImg} 
+                        alt="Pending Trait Scroll"
+                        traitNmaeTitle={"Trait Name:"}
+                        traitNmae={"SAC Button Down"}
+                        traitSupply={"TraitSupply:"}
+                        traitSupplyStats={"15"}
+                        traitAmount={"Trait Amount:"}
+                        traitAmountStats={"0"}
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
 
                     <PendingTraitScroll 
                         src={PendingTraitImg} 
@@ -39,7 +97,9 @@ const PendingTraits = () => {
                         traitAmount={"Trait Amount:"}
                         traitAmountStats={"0"}
                         to={"/"}
-                        traitbtnText={"View Details"}/>
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
 
                     <PendingTraitScroll 
                         src={PendingTraitImg} 
@@ -50,8 +110,10 @@ const PendingTraits = () => {
                         traitSupplyStats={"15"}
                         traitAmount={"Trait Amount:"}
                         traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
 
                     <PendingTraitScroll 
                         src={PendingTraitImg} 
@@ -62,8 +124,10 @@ const PendingTraits = () => {
                         traitSupplyStats={"15"}
                         traitAmount={"Trait Amount:"}
                         traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
 
                     <PendingTraitScroll 
                         src={PendingTraitImg} 
@@ -74,55 +138,10 @@ const PendingTraits = () => {
                         traitSupplyStats={"15"}
                         traitAmount={"Trait Amount:"}
                         traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
-
-                    <PendingTraitScroll 
-                        src={PendingTraitImg} 
-                        alt="Pending Trait Scroll"
-                        traitNmaeTitle={"Trait Name:"}
-                        traitNmae={"SAC Button Down"}
-                        traitSupply={"TraitSupply:"}
-                        traitSupplyStats={"15"}
-                        traitAmount={"Trait Amount:"}
-                        traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
-                    <PendingTraitScroll 
-                        src={PendingTraitImg} 
-                        alt="Pending Trait Scroll"
-                        traitNmaeTitle={"Trait Name:"}
-                        traitNmae={"SAC Button Down"}
-                        traitSupply={"TraitSupply:"}
-                        traitSupplyStats={"15"}
-                        traitAmount={"Trait Amount:"}
-                        traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
-
-                    <PendingTraitScroll 
-                        src={PendingTraitImg} 
-                        alt="Pending Trait Scroll"
-                        traitNmaeTitle={"Trait Name:"}
-                        traitNmae={"SAC Button Down"}
-                        traitSupply={"TraitSupply:"}
-                        traitSupplyStats={"15"}
-                        traitAmount={"Trait Amount:"}
-                        traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
-
-                    <PendingTraitScroll 
-                        src={PendingTraitImg} 
-                        alt="Pending Trait Scroll"
-                        traitNmaeTitle={"Trait Name:"}
-                        traitNmae={"SAC Button Down"}
-                        traitSupply={"TraitSupply:"}
-                        traitSupplyStats={"15"}
-                        traitAmount={"Trait Amount:"}
-                        traitAmountStats={"0"}
-                        to={"/"}
-                        traitbtnText={"View Details"}/>
+                        to={"/pendingtrait"}
+                        traitbtnText={"View Details"}
+                        traitText={"These are the non live traits"}
+                        />
                   </div>
               </div>
           </div>
