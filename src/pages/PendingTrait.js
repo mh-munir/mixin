@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import TraitHeader from '../components/TraitHeader';
 import BackLink from '../components/BackLink';
 import IndividualPendingTrait from '../components/IndividualPendingTrait';
-import PendingTraitUpload1 from '../components/PendingTraitUpload1';
+import PendingTraitCreate from '../components/PendingTraitCreate';
 import PendingTraitImg from '../assets/img/thumbnail.png';
 
 const PendingTrait = () => {
@@ -31,7 +31,7 @@ const PendingTrait = () => {
                     />
                 
                 <div className='p-5 border-2 border-gray-300'>
-                    <PendingTraitUpload1/>
+                    <PendingTraitCreate/>
                 </div>
               </div>
           </div>
