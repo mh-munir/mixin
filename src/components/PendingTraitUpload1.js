@@ -27,7 +27,7 @@ const PendingTraitUpload1 = () => {
                     <li className='font-bold text-[16px] text-gray-400'> Successful video upload: <span>0/4</span></li>
                 </ul>
             </div>
-            <div className="mt-10 flex flex-col gap-5">
+            <div className="mt-10 flex flex-col gap-7">
                 <Progress uploadedText={"Uploaded images (0 left to upload)"} done="90" />
                 <Progress uploadedText={"Uploaded videos (0 left to upload)"} done="60" />
             </div>

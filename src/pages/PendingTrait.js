@@ -14,7 +14,7 @@ const PendingTrait = () => {
           <BackLink className={"absolute top-5 left-5 text-xl font-bold text-gray-deep"} to={"/"}/>
           <TraitHeader />
           <div className='w-[80%] ml-auto px-5'>
-              <div className='max-w-6xl grid grid-cols-1-4 gap-10 mr-auto relative'>
+              <div className='max-w-6xl grid grid-cols-1-4 gap-5 mr-auto relative'>
                 <IndividualPendingTrait 
                     src={PendingTraitImg}
                     alt="Pending Trait Individual"
