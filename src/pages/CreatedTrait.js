@@ -103,7 +103,7 @@ const CreatedTrait = () => {
               </div>
           </div>
     </section>
-  </>
+    </>
   )
 }
 

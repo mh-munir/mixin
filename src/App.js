@@ -9,6 +9,8 @@ import BuilderHome from './pages/BuilderHome';
 import PendingTrait from './pages/PendingTrait';
 import CreatedTraits from './pages/CreatedTraits';
 import CreatedTrait from './pages/CreatedTrait';
+import BuilderOnboarding from './pages/BuilderOnboarding';
+import EditBuilderConfig from './pages/EditBuilderConfig';
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
              <Route path='/pendingtrait' element={<PendingTrait/>} />
              <Route path='/createdtraits' element={<CreatedTraits/>} />
              <Route path='/createdtrait' element={<CreatedTrait/>} />
+             <Route path='/createdtrait' element={<CreatedTrait/>} />
+             <Route path='/builderonboarding' element={<BuilderOnboarding/>} />
+             <Route path='/editbuilderconfig' element={<EditBuilderConfig/>} />
           </Routes>
         </Layout>
       </Router>
