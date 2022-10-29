@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { IoCaretDown } from 'react-icons/io5';
-// IoCaretDown
 
 const TraitsFiltering = ({className}) => {
     const [catField, setCatField] = useState('');
@@ -39,7 +37,7 @@ const TraitsFiltering = ({className}) => {
                 <div onClick={onClickCategory} className="bg-gray-400 relative font-bold text-[16px] px-2 
                     uppercase cursor-pointer text-white w-full h-8 leading-8">
                     {category}
-                    <IoCaretDown className={ ` text-white absolute top-2 right-2 ${catArrow && 'rotate-180'}` } />
+                    <span className={ ` text-white absolute top- right-2 ${catArrow && 'rotate-180'}` }>⮟</span>
                 </div>
                 {catField && (
                     <ul className="absolute w-full top-[103%] flex flex-col gap-[2px]" onClick={onClickCategory}>
@@ -55,7 +53,7 @@ const TraitsFiltering = ({className}) => {
                     uppercase cursor-pointer text-white w-full h-8 leading-8">
                
                     {status}
-                    <IoCaretDown className={ ` text-white absolute top-2 right-2 ${statusArrow && 'rotate-180'}` } />
+                    <span className={ ` text-white absolute top-0 right-2 ${statusArrow && 'rotate-180'}` }></span>
                 </div>
                 {statusField && (
                     <ul className="absolute w-full top-[103%] flex flex-col gap-[2px]" onClick={onClickstatus}>
