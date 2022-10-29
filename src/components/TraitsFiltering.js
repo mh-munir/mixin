@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoCaretDown } from 'react-icons/io5';
 // IoCaretDown
 
-const CreatedTraits = ({className}) => {
+const TraitsFiltering = ({className}) => {
     const [catField, setCatField] = useState('');
     const [statusField, setStatusField] = useState('');
     const [statusArrow, setstatusArrow] = useState(false);
@@ -71,4 +71,4 @@ const CreatedTraits = ({className}) => {
   )
 }
 
-export default CreatedTraits;
+export default TraitsFiltering;

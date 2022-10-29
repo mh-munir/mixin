@@ -7,6 +7,7 @@ import AddTrait from './pages/AddTrait';
 import PendingTraits from './pages/PendingTraits';
 import BuilderHome from './pages/BuilderHome';
 import PendingTrait from './pages/PendingTrait';
+import CreatedTraits from './pages/CreatedTraits';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
              <Route path='/pendingtraits' element={<PendingTraits/>} />
              <Route path='/editbuiderconfig' element={<BuilderHome/>} />
              <Route path='/pendingtrait' element={<PendingTrait/>} />
+             <Route path='/createdtraits' element={<CreatedTraits/>} />
           </Routes>
         </Layout>
       </Router>

@@ -8,7 +8,7 @@ const TraitHeader = () => {
             <li className='w-[310px] bg-yellow-deep px-2 py-1'><NavLink className="text-white text-xl font-bold" to="/traitshop">Traits Shop</NavLink></li>
             <li className='w-[195px] bg-gray-deep px-2 py-1'><NavLink className="text-gray-light text-lg font-normal" to="/addtrait">Add A New Traits</NavLink></li>
             <li className='w-[195px] bg-gray-deep px-2 py-1'><NavLink className="text-gray-light text-lg font-normal" to="/pendingtraits">View Panding Traits</NavLink></li>
-            <li className='w-[195px] bg-gray-deep px-2 py-1'><NavLink className="text-gray-light text-lg font-normal" to="/">View Created Traits</NavLink></li>
+            <li className='w-[195px] bg-gray-deep px-2 py-1'><NavLink className="text-gray-light text-lg font-normal" to="/createdtraits">View Created Traits</NavLink></li>
             <li className='w-[310px] bg-rose-light px-2 py-1'><NavLink className="text-white text-lg font-bold " to="/">Collection Builer</NavLink></li>
         </ul>
     </nav>
