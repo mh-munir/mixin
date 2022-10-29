@@ -11,6 +11,7 @@ import CreatedTraits from './pages/CreatedTraits';
 import CreatedTrait from './pages/CreatedTrait';
 import BuilderOnboarding from './pages/BuilderOnboarding';
 import EditBuilderConfig from './pages/EditBuilderConfig';
+import EditTraitLayering from './pages/EditTraitLayering';
 
 function App() {
   return (
@@ -27,9 +28,9 @@ function App() {
              <Route path='/pendingtrait' element={<PendingTrait/>} />
              <Route path='/createdtraits' element={<CreatedTraits/>} />
              <Route path='/createdtrait' element={<CreatedTrait/>} />
-             <Route path='/createdtrait' element={<CreatedTrait/>} />
              <Route path='/builderonboarding' element={<BuilderOnboarding/>} />
              <Route path='/editbuilderconfig' element={<EditBuilderConfig/>} />
+             <Route path='/edittraitlayering' element={<EditTraitLayering/>} />
           </Routes>
         </Layout>
       </Router>

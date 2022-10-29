@@ -3,7 +3,7 @@ import CustomBtn from './CustomBtn'
 
 const DefaultTraitLayering = () => {
   return (
-        <div className='bg-gray-200 p-5 max-w-[250px]'>
+        <div className='bg-gray-200 p-5 max-w-[300px]'>
             <h2 className='font-gilroy-bold text-gray-deep text-lg mb-3'>Trait layers</h2>
             <p className='text-lg text-gray-400 mb-5 leading-5'>this is the current tarit to you </p>
             <ul className='flex flex-col gap-5 mb-5'>
