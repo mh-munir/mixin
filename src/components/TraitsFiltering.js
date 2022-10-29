@@ -38,15 +38,14 @@ const TraitsFiltering = ({className}) => {
                 <label className='text-lg text-gray-deep font-gilroy-bold'>filter by category</label>
                 <div onClick={onClickCategory} className="bg-gray-400 relative font-bold text-[16px] px-2 
                     uppercase cursor-pointer text-white w-full h-8 leading-8">
-                    {status}
+                    {category}
                     <IoCaretDown className={ ` text-white absolute top-2 right-2 ${catArrow && 'rotate-180'}` } />
                 </div>
                 {catField && (
                     <ul className="absolute w-full top-[103%] flex flex-col gap-[2px]" onClick={onClickCategory}>
-                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option1</li>
-                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option2</li>
-                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option3</li>
-                       
+                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option1</li>
+                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option2</li>
+                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option3</li>
                     </ul>
                 )}
             </div>
@@ -54,15 +53,15 @@ const TraitsFiltering = ({className}) => {
                 <label className='text-lg text-gray-deep font-gilroy-bold'>filter by Status</label>
                 <div onClick={onClickstatus} className="bg-gray-400 relative font-bold text-[16px] px-2 
                     uppercase cursor-pointer text-white w-full h-8 leading-8">
-                    {category}
+               
+                    {status}
                     <IoCaretDown className={ ` text-white absolute top-2 right-2 ${statusArrow && 'rotate-180'}` } />
                 </div>
                 {statusField && (
                     <ul className="absolute w-full top-[103%] flex flex-col gap-[2px]" onClick={onClickstatus}>
-                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option1</li>
-                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option2</li>
-                        <li onClick={(e)=>onChangeCat(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option3</li>
-                       
+                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option1</li>
+                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option2</li>
+                        <li onClick={(e)=>onChangestatus(e)} className="bg-gray-400 text-[16px] font-bold uppercase hover:bg-gray-deep cursor-pointer text-white hover:text-yellow-light px-2 py-[2px]">Option3</li>
                     </ul>
                 )}
             </div>

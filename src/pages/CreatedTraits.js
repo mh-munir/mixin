@@ -27,7 +27,7 @@ const CreatedTraits = () => {
                       traitSupplyStats={"15"}
                       traitAmount={"Trait Amount:"}
                       traitAmountStats={"0"}
-                      to={"/pendingtrait"}
+                      to={"/createdtrait"}
                       traitbtnText={"Archive Trait"}
                       traitText={"These are the non live traits"}
                     />
@@ -40,7 +40,7 @@ const CreatedTraits = () => {
                       traitSupplyStats={"15"}
                       traitAmount={"Trait Amount:"}
                       traitAmountStats={"0"}
-                      to={"/pendingtrait"}
+                      to={"/createdtrait"}
                       traitbtnText={"Archive Trait"}
                       traitText={"These are the non live traits"}
                     />
@@ -53,7 +53,7 @@ const CreatedTraits = () => {
                       traitSupplyStats={"15"}
                       traitAmount={"Trait Amount:"}
                       traitAmountStats={"0"}
-                      to={"/pendingtrait"}
+                      to={"/createdtrait"}
                       traitbtnText={"Push Live"}
                       traitText={"These are the non live traits"}
                     />
