@@ -2,7 +2,7 @@ import React from 'react'
 
 const EditCreatedTrait = () => {
   return (
-   <form className='max-w-[250px]'>
+   <form className='max-w-[250px] mx-auto'>
         <h3 className='text-xl font-gilroy-bold text-gray-deep mb-5'>Edit trait NFT:</h3>
         <div className='mb-3'>
             <label className='text-lg font-gilroy-bold text-gray-deep flex items-center gap-2'><span className='text-yellow-light'>➤</span> name</label>

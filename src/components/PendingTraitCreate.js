@@ -4,7 +4,6 @@ import Progress from './Progress'
 
 const PendingTraitUpload1 = () => {
   return (
-    <div>
         <div>
             <ul className='relative flex justify-between items-start before:absolute before:w-[88%] before:h-[1px] before:bg-gray-300 before:left-1/2 before:-translate-x-1/2 before:top-5'>
                 <li className='relative z-10 flex flex-col items-center justify-center text-center font-gilroy-bold text-lg leading-5 text-gray-deep gap-1'>
@@ -34,7 +33,6 @@ const PendingTraitUpload1 = () => {
                 <Progress uploadedText={"Status bar (1/15 created)"} done="10" />
             </div>
         </div>
-    </div>
   )
 }
 

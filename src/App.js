@@ -12,6 +12,8 @@ import CreatedTrait from './pages/CreatedTrait';
 import BuilderOnboarding from './pages/BuilderOnboarding';
 import EditBuilderConfig from './pages/EditBuilderConfig';
 import EditTraitLayering from './pages/EditTraitLayering';
+import EditCategoryConflicts from './pages/EditCategoryConflicts';
+import EditCategoryConflicts2 from './pages/EditCategoryConflicts2';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
              <Route path='/builderonboarding' element={<BuilderOnboarding/>} />
              <Route path='/editbuilderconfig' element={<EditBuilderConfig/>} />
              <Route path='/edittraitlayering' element={<EditTraitLayering/>} />
+             <Route path='/editcategoryconflicts' element={<EditCategoryConflicts/>} />
+             <Route path='/editCategoryconflicts2' element={<EditCategoryConflicts2/>} />
           </Routes>
         </Layout>
       </Router>
