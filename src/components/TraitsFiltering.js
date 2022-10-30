@@ -53,7 +53,7 @@ const TraitsFiltering = ({className}) => {
                     uppercase cursor-pointer text-white w-full h-8 leading-8">
                
                     {status}
-                    <span className={ ` text-white absolute top-0 right-2 ${statusArrow && 'rotate-180'}` }></span>
+                    <span className={ ` text-white absolute top-0 right-2 ${statusArrow && 'rotate-180'}` }>⮟</span>
                 </div>
                 {statusField && (
                     <ul className="absolute w-full top-[103%] flex flex-col gap-[2px]" onClick={onClickstatus}>
