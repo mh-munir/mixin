@@ -15,6 +15,7 @@ import EditTraitLayering from './pages/EditTraitLayering';
 import EditCategoryConflicts from './pages/EditCategoryConflicts';
 import EditCategoryConflicts2 from './pages/EditCategoryConflicts2';
 import EditBlockedTraits from './pages/EditBlockedTraits';
+import EditBlockedTraits2 from './pages/EditBlockedTraits2';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
              <Route path='/editcategoryconflicts' element={<EditCategoryConflicts/>} />
              <Route path='/editCategoryconflicts2' element={<EditCategoryConflicts2/>} />
              <Route path='/editblockedtraits' element={<EditBlockedTraits/>} />
+             <Route path='/editblockedtraits2' element={<EditBlockedTraits2/>} />
           </Routes>
         </Layout>
       </Router>
