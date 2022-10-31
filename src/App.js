@@ -27,7 +27,7 @@ function App() {
              <Route path='/traitshop' element={<TraitShopHome/>} />
              <Route path='/addtrait' element={<AddTrait/>} />
              <Route path='/pendingtraits' element={<PendingTraits/>} />
-             <Route path='/editbuiderconfig' element={<BuilderHome/>} />
+             <Route path='/builderhome' element={<BuilderHome/>} />
              <Route path='/pendingtrait' element={<PendingTrait/>} />
              <Route path='/createdtraits' element={<CreatedTraits/>} />
              <Route path='/createdtrait' element={<CreatedTrait/>} />
