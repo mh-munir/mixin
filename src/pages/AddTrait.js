@@ -18,7 +18,7 @@ const AddTrait = () => {
             <TraitHeader />
             <div className='w-[80%] ml-auto px-5'>
                 <from onSubmit={handleSubmit}>
-                    <div className='max-w-xl ml-36 mr-auto mb-5 relative grid gap-7'>
+                    <div className='max-w-xl ml-36 mr-auto mb-5 relative grid gap-8'>
                         <div className='flex justify-between items-start'>
                             <div className='text-center'>
                                 <AddtraitField accept={"image"} className={"text-gray-deep font-bold"} type={"file"} traitTitle={"Upload image"} 
@@ -29,12 +29,28 @@ const AddTrait = () => {
                                 traitDes={"must be an mp4"} />
                             </div>
                         </div>
+
+
+                        <div className='text-center'>
+                            <h3 className='font-gilroy-bold text-xl text-gray-deep'>Define the collection artwork attached to this trait</h3>
+                            <p className='text-lg text-gray-400 font-medium'>You can Upload a new trait or use an existing trait </p>
+                            <div className='flex justify-between items-center'>
+                                <label className='text-gray-deep text-xl font-gilroy-bold capitalize'>
+                                    <input type="radio" value="existingtrait" id="existingtrait" name="trait" /> Select Existing trait
+                                </label>
+                                <label className='text-gray-deep text-xl font-gilroy-bold capitalize'>
+                                    <input type="radio" value="newtrait" id="newtrait" name="trait" /> Upload a new tarit
+                                </label>
+                            </div>
+                        </div>
+
                         <div className='text-center'>
                             <AddtraitField 
                             className={"text-gray-deep font-bold bg-gray-light w-[40%] border-2 border-gray-400 p-[1px] focus:outline-0"}
                             type={"text"} traitTitle={"Name of trait"} 
                             traitDes={"( Without numbers - those will added automaticly )"} />
                         </div>
+
                         <div className='text-center'>
                             <AddtraitField 
                             className={"text-gray-deep font-bold bg-gray-light w-[40%] border-2 border-gray-400 p-[1px] focus:outline-0"}
