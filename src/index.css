@@ -8,7 +8,7 @@
     font-family: Lekton, sans-serif;
   }
 
-  input[type='file']::-webkit-file-upload-button{
+  input[type='file']::-webkit-file-upload-button {
     background-color: #8C8289;
     border: 1px solid #8C8289;
     color: #fff;
@@ -16,5 +16,51 @@
     border-radius: 5px;
     margin-right: 16px;
     cursor: pointer;
+  }
+
+  input[type="radio"] {
+    appearance: none;
+  }
+
+  input[type="radio"]+label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    line-height: 20px;
+  }
+
+  input[type="radio"]+label::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    aspect-ratio: 1;
+    border: 2px solid #8C8289;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: 1;
+    transition: all 0.3s;
+  }
+
+  input[type="radio"]+label::after {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    aspect-ratio: 1;
+    border: 2px solid #8C8289;
+    background: #8C8289;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: all 0.3s;
+  }
+
+  input[type="radio"]:checked+label::after {
+    opacity: 1;
   }
 }
